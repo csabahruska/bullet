@@ -1,0 +1,9 @@
+connectionHeight        = 0.15
+wheelDirectionCS        = 0 -1 0
+wheelAxleCS             = -1 0 0
+suspensionRestLength    = 0.7
+suspensionStiffness     = 20
+suspensionDamping       = 2.3
+suspensionCompression   = 4.4
+rollInfluence           = 0.4
+wheelFriction           = 2
