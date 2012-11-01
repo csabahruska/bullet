@@ -1,0 +1,37 @@
+% Bullet-CB.tex
+\begin{hcarentry}[updated]{Bullet}
+\label{bullet}
+\report{Csaba Hruska}%05/12
+\status{experimental, active development}
+\makeheader
+
+Bullet is a professional open source multi-threaded 3D Collision
+Detection and Rigid Body Dynamics Library written in C++. It is free
+for commercial use under the zlib license. The Haskell bindings ship
+their own (auto-generated) C compatibility layer, so the library can
+be used without modifications. The Haskell binding provides a low
+level API to access Bullet C++ class methods.  Some bullet classes
+(Vector, Quaternion, Matrix, Transform) have their own Haskell
+representation, others are binded as class pointers. The Haskell API
+provides access to some advanced features, like constraints, vehicle
+and more.
+
+At the current state of the project most common services are
+accessible from Haskell, i.e., you can load collision shapes and step
+the simulation, define constraints, create raycast vehicle, etc.  More
+advanced Bullet features (soft body simulation, Multithread and GPU
+constaint solver, etc.) will be added later.
+
+Currently we are developing a new high level FRP based API, which is
+built top of Bullet.Raw module using the Elerea library.
+
+%**<img width=500 src="./lc-stunts.png">
+%*ignore
+\begin{center}
+\includegraphics[width=0.47\textwidth]{html/lc-stunts.png}
+\end{center}
+%*endignore
+
+\FurtherReading
+\url{http://www.haskell.org/haskellwiki/Bullet}
+\end{hcarentry}
