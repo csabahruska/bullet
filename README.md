@@ -5,6 +5,7 @@ Binding for bullet-2.79.
 
 Compile:
  * get bullet-2.79 physics engine from http://code.google.com/p/bullet/downloads/list
+  * (from subversion) svn checkout http://bullet.googlecode.com/svn/trunk/@2440 bullet-read-only-2.79
 
  * compile and install the library:
   * cd bullet-2.79
