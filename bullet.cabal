@@ -336,7 +336,8 @@ Library
 
   if os(linux)
     Pkgconfig-Depends:   bullet
-    Include-Dirs:        cbits
+    Include-Dirs:        cbits bullet
+    Extra-Libraries:     stdc++
   else
     Extra-Libraries:     BulletSoftBody BulletDynamics BulletCollision LinearMath stdc++
                          --BulletMultiThreaded GIMPACTUtils ConvexDecomposition

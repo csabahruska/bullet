@@ -9,7 +9,7 @@ Compile:
 
  * compile and install the library:
   * cd bullet-2.79
-  * cmake .
+  * cmake . -DBUILD_DEMOS=NO (on OSX for 32 bit GHC also add -DCMAKE_OSX_ARCHITECTURES='i386')
   * make
   * sudo make install
 
