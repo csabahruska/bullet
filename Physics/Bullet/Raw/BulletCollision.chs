@@ -10,7 +10,7 @@ module Physics.Bullet.Raw.BulletCollision
 ) where
 import Control.Monad
 import Foreign.Marshal.Alloc
-import Foreign.ForeignPtr
+import Foreign.ForeignPtr.Unsafe
 import Foreign.Ptr
 import Physics.Bullet.Raw.C2HS
 import Physics.Bullet.Raw.Types
