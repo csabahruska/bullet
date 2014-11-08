@@ -62,7 +62,7 @@ import Foreign
 		    -- Should also hide the Foreign.Marshal.Pool exports in
 		    -- compilers that export them
 import Foreign.C
-import Foreign.ForeignPtr
+import Foreign.ForeignPtr.Unsafe
 
 import Control.Monad        (when, liftM)
 
