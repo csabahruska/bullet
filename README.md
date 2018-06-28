@@ -3,9 +3,9 @@
 Binding for bullet-2.79.
 
 ### Compile
-1. get bullet-2.79 physics engine from http://code.google.com/p/bullet/downloads/list
+1. download and extract bullet physics source code: [bullet-2.79-rev2440.zip](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/bullet/bullet-2.79-rev2440.zip)
   ```
-  svn checkout http://bullet.googlecode.com/svn/trunk/@2440 bullet-read-only-2.79
+  unzip bullet-2.79-rev2440.zip
   ```
 
 2. compile and install the library:
