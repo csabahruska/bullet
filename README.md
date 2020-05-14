@@ -16,6 +16,12 @@ Binding for bullet-2.79.
   sudo make install
   ```
 
+  on Ubuntu 16.04 x64 bullet compiles with:
+  ```
+  cmake . -DBUILD_SHARED_LIBS=off -DBUILD_DEMOS=off -DCMAKE_CXX_FLAGS="-fPIC -Wno-narrowing" -DCMAKE_C_FLAGS="-fPIC -Wno-narrowing" -DINSTALL_LIBS=on
+  make -j4
+  ```
+
 3. compile and install the haskell bullet binding:
   `cabal install` (run command in the bullet.cabal's directory)
 
